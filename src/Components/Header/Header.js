@@ -5,16 +5,28 @@ import logo from "../../Images/logo.png";
 const Header = () => {
   return (
     <div className="mx-auto flex max-w-7xl bg-white text-black font-xl items-center justify-between px-12 md:px-5 py-2">
-      <div className="logo">
-        <img className="w-[120px]" src={logo} alt="" />
-      </div>
+      <CustomLink to="/home">
+        <div className="logo">
+          <img className="w-[120px]" src={logo} alt="" />
+        </div>
+      </CustomLink>
       <div className="menu">
         <nav className="flex text-2xl">
-          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/home">Home</CustomLink>
-          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/reviews">Reviews</CustomLink>
-          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/dashboard">Dashboard</CustomLink>
-          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/blogs">Blogs</CustomLink>
-          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/about">About</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/home">
+            Home
+          </CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/reviews">
+            Reviews
+          </CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/dashboard">
+            Dashboard
+          </CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/blogs">
+            Blogs
+          </CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/about">
+            About
+          </CustomLink>
         </nav>
       </div>
     </div>
