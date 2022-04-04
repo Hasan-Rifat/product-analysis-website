@@ -10,11 +10,11 @@ const Header = () => {
       </div>
       <div className="menu">
         <nav className="flex text-2xl">
-          <CustomLink className="mr-12 text-[#8f969d]" to="/home">Home</CustomLink>
-          <CustomLink className="mr-12 text-[#8f969d]" to="/reviews">Reviews</CustomLink>
-          <CustomLink className="mr-12 text-[#8f969d]" to="/dashboard">Dashboard</CustomLink>
-          <CustomLink className="mr-12 text-[#8f969d]" to="/blogs">Blogs</CustomLink>
-          <CustomLink className="mr-12 text-[#8f969d]" to="/about">About</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/home">Home</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/reviews">Reviews</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/dashboard">Dashboard</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/blogs">Blogs</CustomLink>
+          <CustomLink className="mr-4 md:mr-12 text-[#8f969d]" to="/about">About</CustomLink>
         </nav>
       </div>
     </div>

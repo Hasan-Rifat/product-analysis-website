@@ -59,7 +59,7 @@ const data = [
 
 const Chart = () => {
   return (
-    <div className="p-16 grid grid-cols-1 md:grid-cols-2 gap-14">
+    <div className="p-16 grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-14">
       <div className="div">
         <h2 className="text-4xl font-medium text-center">
           Investment vs Revenue
