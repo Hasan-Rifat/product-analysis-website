@@ -13,7 +13,7 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="bg grid grid-cols-1 md:grid-cols-2  max-w-7xl m-auto">
+    <div className=" grid grid-cols-1 md:grid-cols-2 gap-12  max-w-7xl justify-center  mx-auto ">
       {
         QNA.map(q=> <Blog q={q}></Blog>)
       }

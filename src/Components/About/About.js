@@ -1,9 +1,9 @@
 import React from "react";
-
+import image from '../../Images/about.jpg'
 const About = () => {
   return (
-    <div>
-      <h2>about</h2>
+    <div className="p-10 mx-auto max-w-7xl items-center justify-between px-10 md:px-4">
+        <img src={image} className='' alt="" />
     </div>
   );
 };

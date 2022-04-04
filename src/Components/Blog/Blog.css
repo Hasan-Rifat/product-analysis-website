@@ -1,5 +1,7 @@
 .bg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-  margin: 50px 0;
-  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  /* margin: 0 auto; */
 }

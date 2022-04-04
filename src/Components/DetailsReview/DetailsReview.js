@@ -4,7 +4,7 @@ const DetailsReview = ({ review }) => {
   const { name, rating, reviews, image } = review;
   console.log(review);
   return (
-    <div className="shadow-2xl p-5">
+    <div className="shadow-2xl p-5 rounded-xl">
       <div className="">
         <div className="img">
           <img src={image} className="w-[350px] h-[366px]" alt="" />
